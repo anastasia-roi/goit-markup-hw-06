@@ -285,12 +285,18 @@ p {
 
 .our-team {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  /* padding: 120px 0; */
+  padding: 28px 0px;
+  
 }
 
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  /* gap: 24px; */
+  gap: 72px;
+  align-items: center;
+  margin-bottom: 96px;
 }
 .our-team-text {
   text-transform: capitalize;
@@ -302,6 +308,8 @@ p {
   color: #2e2f42;
   margin-bottom: 8px;
   margin-bottom: 72px;
+  margin-top: 96px;
+  
 }
 .div-name {
   padding: 32px 0;
@@ -318,9 +326,14 @@ p {
 
 .teammates {
   background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
+  align-items: center;
+  /* border-radius: 0px 0px 4px 4px; */
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); 
-  
+   
+  border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 428px;
   display: block;
   
 }
