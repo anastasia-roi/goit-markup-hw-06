@@ -327,7 +327,6 @@ p {
 .teammates {
   background-color: #ffffff;
   align-items: center;
-  /* border-radius: 0px 0px 4px 4px; */
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); 
    
   border-radius: 0 0 4px 4px;
@@ -910,6 +909,7 @@ display: inline-flex;
     flex-wrap: wrap;
     gap: 72px 24px;
     align-content: space-between;
+    margin-bottom: 96px;
     }
         .features>h3 {
       text-align: left;
@@ -918,6 +918,12 @@ display: inline-flex;
     position: relative;
     flex-basis: calc((100% - 24px) / 2);
   }
+   .team-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    justify-content: center;
+   }
   
 }
 
@@ -943,6 +949,7 @@ display: inline-flex;
     .contacts-list{
       display: flex;
       flex-direction: row;
+      flex-wrap: nowrap;
       gap: 40px;
     }
     .nav-link-contacts{
@@ -1002,5 +1009,13 @@ display: inline-flex;
 }
 .features>p {
   font-weight: 400;
+}
+.team-list {
+  flex-direction: row;
+flex-wrap: nowrap;
+}
+
+.team-list{ 
+  gap: 24px;
 }
 }
